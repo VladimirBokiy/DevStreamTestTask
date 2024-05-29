@@ -1,0 +1,42 @@
+# Visual Studio files
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.sln.docstates
+*.vscode/
+
+# NuGet Packages
+*.nupkg
+packages/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+**/Properties/launchSettings.json
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor-related files
+*.swp
+*.swo
