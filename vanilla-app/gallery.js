@@ -32,7 +32,6 @@ export function renderGallery(images) {
 }
 
 async function renderImageToCanvas(imageUrl) {
-    console.log(imageUrl);
     const img = new Image();
     img.crossOrigin = "anonymous";
     img.src = imageUrl;
